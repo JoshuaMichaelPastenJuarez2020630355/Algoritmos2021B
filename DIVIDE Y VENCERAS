@@ -1,0 +1,65 @@
+#include <iostream>
+#include <stdio.h>
+ 
+const int kMax = 100 + 3;
+ 
+int t, n, a[kMax], res[kMax];
+ 
+void Scan()
+{
+    scanf("%d ", &n);
+    for (int i = 1; i <= n; ++i)
+        scanf("%d ", &a[i]);
+}
+ 
+void PrintRes()
+{
+    for (int i = 1; i <= n; ++i)
+        printf("%d ", res[i]);
+ 
+    printf("\n");
+}
+ 
+int Max(int a, int b)
+{
+    return a > b ? a : b;
+}
+ 
+void Solve(int left, int right, int d)
+{
+    if (left > right)
+        return;
+ 
+    if (left == right)
+    {
+        res[left] = d;
+        return;
+    }
+ 
+    int max = 0;
+    int pos = 0;
+    for (int i = left; i <= right; ++i)
+    {
+        if (a[i] > max)
+        {
+            max = a[i];
+            pos = i;
+        }
+    }
+    
+    res[pos] = d++;
+    Solve(left, pos - 1, d);
+    Solve(pos + 1, right, d);
+}
+ 
+int main()
+{
+    scanf("%d ", &t);
+ 
+    for (int i = 0; i < t; ++i)
+    {
+        Scan();
+        Solve(1, n, 0);
+        PrintRes();
+    }
+}
