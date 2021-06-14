@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
    for (int i = 0; i < M; i++) {
       function[i] = (((a * (double) i) + (b * (double) i)) - c);
    }
-   cout << "Enter the max K value: ";
+   cout << "ingrese el maximo valor de K: ";
    int k;
    cin >> k;
    double cosine[M];
