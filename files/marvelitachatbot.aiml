@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+<category>
+    <pattern>¿cual es el verdadero nombre de spiderman </pattern>
+    <template>Peter Parker
+<image>https://img.europapress.es/fotoweb/fotonoticia_20220720184850_420.jpg</image></template>
+</category>
+<category>
+    <pattern>¿qué tipo de médico es stephen strange </pattern>
+    <template>neurocirujano
+</template>
+</category>
+<category>
+    <pattern>¿Cuantas Gemas del infinito hay </pattern>
+    <template>6
+<image>https://i.pinimg.com/550x/32/d6/c7/32d6c747877fe4b38f1c934ddd1b8124.jpg</image></template>
+</category>
+<category>
+    <pattern>¿cuales son las gemas del infinito  </pattern>
+    <template>del espacio, de la mente, de la realidad, del poder, del tiempo y del alma
+<image>https://i.ytimg.com/vi/Fme4WqK1JCQ/maxresdefault.jpg</image></template>
+</category>
+<category>
+    <pattern>¿Quién es Natasha Romanoff  😍</pattern>
+    <template>Black Widow
+<image>http://c.files.bbci.co.uk/12CB9/production/_119658967_scarlett-johansson-black-widow.jpg</image></template>
+</category>
+<category>
+    <pattern>¿Quién mandó a matar a  los padres de Tony Stark 😢</pattern>
+    <template>HYDRA
+<image>https://i.pinimg.com/originals/10/4a/83/104a830c04f4cb370275fc6f6ace21f5.jpg</image>
+</template>
+</category>
+<category>
+    <pattern>¿Quién es el hermano mellizo de la Bruja Escarlata 😈</pattern>
+    <template>Quicksilver
+<image>https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2020/01/04/quicksilver-1.jpg</image></template>
+</category>
+<category>
+    <pattern>¿de qué material está hecho el escudo del Capitán América </pattern>
+    <template>De Vibranium
+<image>https://img.wattpad.com/d874b9ea1080d359e778626c5b03af59ce54b737/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f422d64564742584b546f706965673d3d2d3539353638393237302e313533636461313431316530356539643136353731313334393934392e676966</image></template>
+</category>
+<category>
+    <pattern>¿Cuántas películas de Ironman hay </pattern>
+    <template>3
+<image>https://i.pinimg.com/originals/06/8f/3d/068f3d5e458950b981d298fe151df414.gif</image></template>
+</category>
+<category>
+    <pattern>¿Cuántas películas de Marvel hay al momento </pattern>
+    <template>29
+<image>https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/giphy-5-1585562437.gif</image></template>
+</category>
+</aiml>
